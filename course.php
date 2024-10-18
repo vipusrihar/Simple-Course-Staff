@@ -3,7 +3,7 @@
     <tr>
         <th>Course Code</th>
         <th>Course Title</th>
-        <th>duration</th>
+        <th>Duration</th>
         <th></th>
     </tr>
 
@@ -24,7 +24,12 @@ if($result->num_rows > 0){
         </tr>
         <?php
     }
+    
 }
+?>
+</table>
+    <button onclick="window.location='addcourse.php'"> Add </button>
+<?php
 $conn->close();
 
 ?>
