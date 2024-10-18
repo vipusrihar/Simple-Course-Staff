@@ -41,7 +41,7 @@ td{
     text-align: center;
 }
 
-button, [type='submit']{
+button,[type='submit']{
     background-color: rgb(17, 17, 18);
     border: none;
     width:100px;
